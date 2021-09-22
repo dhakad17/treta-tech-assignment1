@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    background-color: rgb(1, 28, 116);
+    color:white;
+    height:100vh;
+    width:100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin: 1rem;
+}
+a{
+    text-decoration: none;
+   color:white;
+   font-size: 1.4rem;
+   text-transform: capitalize;
+}
+.section{
+   
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+.sec-col-1{
+    width:40%;
+   
+}
+.sec-col-2{
+    width:40%;
+    text-align: center;
+  
+}
+.sec-col-2 img{
+
+    width: 700px; ;
+  height:auto;
+  padding-right: 100px;
+}
+.sec-col-1 h2{
+    font-size: 1.9rem;
+    margin:0.2rem auto;
+}
+.btn{
+    cursor: pointer;
+    padding:0.6rem 1.9rem;
+    border-radius:100px;
+    margin:1rem auto;
+    border: none;
+    background-color: rgb(1, 99, 61);
+    box-shadow: 0px 3px 4px rgba(0 0 0 / 0.2);
+    color:white;
+}
+@media only screen and (max-width:768px)
+{
+    .section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-col-1{
+        width:80%;
+        text-align: center;
+       
+    }
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    margin:3rem auto;
+}
+.inner-box-1
+{
+    width:40%;
+    
+}
+.inner-box-2{
+    width:40%;
+}
+.inner-box-1 img{
+    width:20rem;
+  height:auto;
+}
+.inner-box-2 h2{
+    color:rgb(13, 13, 56);
+    margin:1rem 0;
+}
+.inner-box-2 p{
+    color:rgb(90, 89, 89);
+}
+.section-4{
+    margin-top: 2rem;
+    text-align: center;
+    
+}
+.section-4 h2{
+    color:rgb(13, 13, 56);
+    margin:2rem auto;
+    font-size: 2.4rem;
+}
+.section-4 p{
+    width: 50%;
+    margin: auto;
+    color:rgb(63, 63, 63);
+}
+i{
+    margin:1rem;
+    font-size: 2.5rem!important;
+    color:rgb(0, 119, 255);
+}
+.footer{
+    
+    background-color: #3A4464 ;
+    color:white;
+    text-align: center;
+    
+    margin:auto;
+}
+.footer>ul>li{
+    padding-top: 10px;
+    margin:25px ;
+    width:100%;
+    text-align: center;
+}
+hr{
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+    background-color: white;
+}
